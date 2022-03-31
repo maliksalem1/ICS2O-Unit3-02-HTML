@@ -4,17 +4,17 @@
 
 'use strict'
 /**
- * This function calculates area and perimeter of rectangle.
+ * This function calculates volume and perimeter of rectangle.
  */
 function calculate () {
   // input
-  const aBase = parseInt(document.getElementById('aBase').value)
-  const bBase = parseInt(document.getElementById('bBase').value)
+  const length = parseInt(document.getElementById('length').value)
+  const width = parseInt(document.getElementById('width').value)
   const height = parseInt(document.getElementById('height').value)
 
   // process 
-  const area = (aBase + bBase) * (1 / 2) * height
+  const volume = (length * width * height) / 3
 
   // output
-  document.getElementById('area').innerHTML = '<p>Area is: ' + area.toString() + ' mm²</p>'
+  document.getElementById('volume').innerHTML = '<p>volume is: ' + volume.toString() + ' mm²</p>'
 }

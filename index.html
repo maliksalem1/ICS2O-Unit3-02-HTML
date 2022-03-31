@@ -32,7 +32,7 @@
             </th>
             <th>
               <h2>Formulas</h2>
-              <h3>A = [(a + b) / 2 x h]</h3>
+              <h3>V = (L x W x H) / 3</h3>
             </th>
           </tr>
         </table>
@@ -52,29 +52,29 @@
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>A base</p>
+          <p>length</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="aBase"
+              id="length"
             />
-            <label class="mdl-textfield__label" for="a-base-of-pyramid">Abase ...</label>
+            <label class="mdl-textfield__label" for="length-of-pyramid">length ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>B base</p>
+          <p>width</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="bBase"
+              id="width"
             />
-            <label class="mdl-textfield__label" for="B-base-of-pyramid">Bbase ...</label>
+            <label class="mdl-textfield__label" for="width-of-pyramid">width ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
@@ -88,7 +88,7 @@
         <br />
         <p>
           <div id="answers">
-            <div id="area"></div>
+            <div id="volume"></div>
           </div>
         </p>
       </main>
